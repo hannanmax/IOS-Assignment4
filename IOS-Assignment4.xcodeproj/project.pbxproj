@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		BB100EFD2939743000A9169B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB100EFC2939743000A9169B /* AppDelegate.swift */; };
 		BB100EFF2939743000A9169B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB100EFE2939743000A9169B /* SceneDelegate.swift */; };
-		BB100F012939743000A9169B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB100F002939743000A9169B /* ViewController.swift */; };
 		BB100F042939743000A9169B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB100F022939743000A9169B /* Main.storyboard */; };
 		BB100F062939743200A9169B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB100F052939743200A9169B /* Assets.xcassets */; };
 		BB100F092939743200A9169B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB100F072939743200A9169B /* LaunchScreen.storyboard */; };
+		BB100F112939752700A9169B /* MovieList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB100F102939752700A9169B /* MovieList.swift */; };
+		BB100F132939754F00A9169B /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB100F122939754F00A9169B /* Movies.swift */; };
+		BB7DFB912939770F000E2A35 /* AddMovieVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7DFB902939770F000E2A35 /* AddMovieVC.swift */; };
+		BB7DFB932939780F000E2A35 /* MovieListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7DFB922939780F000E2A35 /* MovieListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BB100EF92939743000A9169B /* IOS-Assignment4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS-Assignment4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB100EFC2939743000A9169B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB100EFE2939743000A9169B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BB100F002939743000A9169B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BB100F032939743000A9169B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BB100F052939743200A9169B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB100F082939743200A9169B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB100F0A2939743200A9169B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB100F102939752700A9169B /* MovieList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieList.swift; sourceTree = "<group>"; };
+		BB100F122939754F00A9169B /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
+		BB7DFB902939770F000E2A35 /* AddMovieVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMovieVC.swift; sourceTree = "<group>"; };
+		BB7DFB922939780F000E2A35 /* MovieListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +64,14 @@
 			children = (
 				BB100EFC2939743000A9169B /* AppDelegate.swift */,
 				BB100EFE2939743000A9169B /* SceneDelegate.swift */,
-				BB100F002939743000A9169B /* ViewController.swift */,
 				BB100F022939743000A9169B /* Main.storyboard */,
 				BB100F052939743200A9169B /* Assets.xcassets */,
 				BB100F072939743200A9169B /* LaunchScreen.storyboard */,
 				BB100F0A2939743200A9169B /* Info.plist */,
+				BB100F102939752700A9169B /* MovieList.swift */,
+				BB100F122939754F00A9169B /* Movies.swift */,
+				BB7DFB902939770F000E2A35 /* AddMovieVC.swift */,
+				BB7DFB922939780F000E2A35 /* MovieListTableViewController.swift */,
 			);
 			path = "IOS-Assignment4";
 			sourceTree = "<group>";
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB100F012939743000A9169B /* ViewController.swift in Sources */,
+				BB100F132939754F00A9169B /* Movies.swift in Sources */,
 				BB100EFD2939743000A9169B /* AppDelegate.swift in Sources */,
+				BB100F112939752700A9169B /* MovieList.swift in Sources */,
 				BB100EFF2939743000A9169B /* SceneDelegate.swift in Sources */,
+				BB7DFB932939780F000E2A35 /* MovieListTableViewController.swift in Sources */,
+				BB7DFB912939770F000E2A35 /* AddMovieVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
